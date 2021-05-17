@@ -1,0 +1,64 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 700px;
+    height: 900px;
+    margin: 100px auto;
+    background-color: rgb(99, 70, 70);
+    border-radius: 15px;
+}
+
+.div1{
+    position: absolute;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 120px;
+    left: 70px;
+
+}
+span{
+    position: relative;
+    left: 40px;
+    top:10px;
+    color: rgb(250, 249, 249);
+    font-size: 20px;
+}
+
+input{
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: -50px;
+    left: 30px;
+    font-size: 40px;
+}
+
+.input8{
+cursor: pointer;
+background-color: rgba(54, 29, 29, 0.993);
+color: white;
+}
+.input0{
+    border:3px solid red;
+}
+.input1{
+    border:3px solid rgb(9, 255, 0);
+}
